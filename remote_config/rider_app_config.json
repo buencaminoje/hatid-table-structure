@@ -1,0 +1,39 @@
+{
+  "app": {
+    "name": "Hatid.PH",
+    "aboutUrl": "https://hatid.top/about_app",
+    "supportUrl": "https://hatid.top/support_and_help"
+  },
+  "messages": {
+    "welcome": {
+      "greeting": "Kamusta? #name!",
+      "prompt": "Where are you going?"
+    },
+    "fareNote": "Note: Final fare may vary depending on the actual route taken, traffic conditions, waiting time, toll fees, and applicable surcharges.",
+    "cancellation": {
+      "rider": "Please cancel only when necessary.\nUnjustified or repeated cancellations after accepting a booking may result in account suspension.",
+      "orderCancelled": "Your ride has been cancelled."
+    },
+    "completion": "Thank you for completing this order with Hatid!",
+    "availabilityInactivity": "You’ll automatically be set to unavailable after 5 minutes of inactivity."
+  },
+  "wallet": {
+    "topUpEnabled": false,
+    "withdrawEnabled": false
+  },
+  "verification": {
+    "verifyOtpEnabled": true,
+    "resendOtpEnabled": false
+  },
+  "promotions": {
+    "trackingPage": {
+      "enabled": true,
+      "text": "Get the latest updates from Hatid.\nTap to visit our Facebook page.",
+      "cta": "https://www.facebook.com/hatid.Ph0130"
+    }
+  },
+  "tracking": {
+    "arrivalRadius": 50,
+    "completionRadius": 50
+  }
+}

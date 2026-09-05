@@ -1,0 +1,124 @@
+{
+  "app": {
+    "name": "Hatid.PH",
+    "aboutUrl": "https://hatid.top/about_app",
+    "supportUrl": "https://hatid.top/support_and_help"
+  },
+  "messages": {
+    "welcome": {
+      "greeting": "Kamusta? #name!",
+      "prompt": "Where are you going?"
+    },
+    "fareNote": "Note: Final fare may vary depending on the actual route taken, traffic conditions, waiting time, toll fees, and applicable surcharges.",
+    "cancellation": {
+      "customer": "You can cancel this ride within 3 minutes after your rider accepts your booking. After that, cancellation will no longer be available.",
+      "orderCancelled": "Your order has been cancelled."
+    },
+    "completion": "We hope you enjoyed your order with Hatid."
+  },
+  "services": {
+    "models": [
+      {
+        "id": "SM01",
+        "icon": "/assets/icons/car.png",
+        "description": "Ride",
+        "enabled": true
+      },
+      {
+        "id": "SM02",
+        "icon": "/assets/icons/motorcycle.png",
+        "description": "Ride",
+        "enabled": true
+      },
+      {
+        "id": "SM03",
+        "icon": "/assets/icons/tricycle.png",
+        "description": "Ride",
+        "enabled": true
+      },
+      {
+        "id": "SM04",
+        "icon": "/assets/icons/delivery.png",
+        "description": "Delivery",
+        "enabled": true
+      },
+      {
+        "id": "SM05",
+        "icon": "/assets/icons/tricycle.png",
+        "description": "Delivery",
+        "enabled": true
+      },
+      {
+        "id": "SM06",
+        "icon": "/assets/icons/pickup.png",
+        "description": "Cargo - 100kg max.",
+        "enabled": true
+      }
+    ]
+  },
+  "wallet": {
+    "topUpEnabled": false,
+    "withdrawEnabled": false
+  },
+  "serviceArea": {
+    "coordinates": [
+      [
+        "15.791859372197548",
+        "120.99006623790883"
+      ],
+      [
+        "15.713639270315625",
+        "120.90399872490408"
+      ]
+    ],
+    "blacklistedAreas": [
+      {
+        "enabled": true,
+        "coordinates": {
+          "lat": 15.792520211520984,
+          "lng": 120.99018492831586
+        },
+        "radius": 20
+      }
+    ]
+  },
+  "restrictions": {
+    "ride": {
+      "enabled": false,
+      "serviceableMaxDistance": 25000,
+      "pudoMaxDistance": 20000,
+      "pudoMinDistance": 20
+    },
+    "delivery": {
+      "enabled": true,
+      "serviceableMaxDistance": 25000,
+      "pudoMaxDistance": 20000,
+      "pudoMinDistance": 20
+    }
+  },
+  "pabili": {
+    "enabled": false,
+    "fee": 10,
+    "maxAmount": 5000,
+    "availableTo": [
+      "SM10"
+    ]
+  },
+  "booking": {
+    "locationDebounceInterval": 1500,
+    "cancellableInterval": 180,
+    "autoCancelInterval": 125,
+    "fareRefreshInterval": 60
+  },
+  "verification": {
+    "verifyOtpEnabled": true,
+    "resendOtpEnabled": false
+  },
+  "promotions": {
+    "trackingPage": {
+      "enabled": true,
+      "text": "Stay updated with our latest promos and offers.\nTap to visit our Facebook page.",
+      "cta": "https://www.facebook.com/hatid.Ph0130"
+    }
+  }
+}

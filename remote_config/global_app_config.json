@@ -1,0 +1,52 @@
+{
+  "app":{
+    "maintenance":false,
+    "maintenanceMessage":"We are currently under maintenance and we'll be back soon."
+  },
+  "update":{
+    "latestVersion":"1.2.0",
+    "minimumSupportedVersion":"1.0.0",
+    "requireUpdate":false,
+    "title":"Update Available",
+    "message":"We've made some great improvements! Update now to enjoy the latest features and fixes.",
+    "androidCta":"https://play.google.com/store/apps/details?id=com.hatid.ph",
+    "iphoneCta":"https://apps.apple.com/app/id1234567890",
+    "ctaLabel":"Update",
+    "dismissLabel":"Later"
+  },
+  "network":{
+    "apiBaseUrl":"https://api-dev.hatid.top",
+    "apiBasePath":"/api",
+    "connectTimeout":15,
+    "receiveTimeout":15,
+    "sendTimeout":15,
+    "fallbackEventEnabled": true,
+    "backgroundEventEnabled": true,
+    "fallbackEventInterval":{
+      "Finding": 10,
+      "Pending":10,
+      "Accepted":30,
+      "default":120
+    },
+    "backgroundEventInterval":{
+      "Finding":25,
+      "Pending":30,
+      "Accepted":50,
+      "default":125
+    }
+  },
+  "socket":{
+    "socketBaseUrl":"https://socket-dev.hatid.top",
+    "timeout":20000,
+    "reconnectionAttempts":999999999,
+    "reconnectionDelay":2000,
+    "reconnectionDelayMax":30000,
+    "heartbeatInterval":{
+      "Finding":10,
+      "Pending":10,
+      "Accepted":30,
+      "default":60
+    },
+    "emitTimeout":15
+  }
+}
